@@ -9,5 +9,8 @@ import post from "../createPost";
 
 export default {
   name: "윤아라",
-  posts: [post(1, "독일은 자전거 교육이 의무라고?", "2024-06-03")],
+  posts: [
+    post(1, "독일은 자전거 교육이 의무라고?", "2024-06-03"),
+    post(2, "독일의 동물보호법", "2024-08-19"),
+  ],
 };

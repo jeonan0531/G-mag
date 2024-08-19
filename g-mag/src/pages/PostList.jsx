@@ -27,7 +27,7 @@ export default function PostListPage() {
               key={index}
               to={`/post/${post.reporter}/${post.id}`}
               title={post.title}
-              meta={post.date}
+              meta={`${post.reporter} 기자 / ${post.date}`}
               bgImg={`./${post.reporter}/${post.id}/`}
             />
           ))}
