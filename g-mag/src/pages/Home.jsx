@@ -9,9 +9,7 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 export default function HomePage() {
   // const [value, setValue] = useState("**Hello world!**");
-  const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/new-page");
     window.scrollTo(0, 0);
   };
 

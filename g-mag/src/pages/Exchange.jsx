@@ -5,9 +5,7 @@ import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function ExchangePage(props) {
-  const navigate = useNavigate();
   const handleClick = () => {
-    navigate("/new-page");
     window.scrollTo(0, 0);
   };
 
@@ -37,7 +35,7 @@ export default function ExchangePage(props) {
       <div className="d-flex justify-content-end mb-4">
         <Link
           class="btn btn-primary text-uppercase"
-          to="postlist"
+          to="/postlist"
           onClick={handleClick}
         >
           독일에 대한 다양한 정보가 궁금하다면? →
