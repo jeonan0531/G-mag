@@ -12,7 +12,6 @@ import ExchangePage from "./pages/Exchange.jsx";
 import MemoirPage from "./pages/memoir.jsx";
 import PostPage from "./pages/Post.jsx";
 import PostListPage from "./pages/PostList.jsx";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 const router = createBrowserRouter([
   {
