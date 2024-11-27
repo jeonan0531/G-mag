@@ -9,6 +9,7 @@ import MemoirPage from "./pages/memoir.jsx";
 import PostPage from "./pages/Post.jsx";
 import PostListPage from "./pages/PostList.jsx";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import Quiz from "./pages/Quiz.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
       { path: "/post/:name/:id", element: <PostPage /> },
       { path: "/post", element: <PostPage /> },
       { path: "/postlist", element: <PostListPage /> },
+      { path: "/quiz", element: <Quiz /> },
     ],
   },
 ]);
