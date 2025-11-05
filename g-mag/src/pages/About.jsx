@@ -43,7 +43,7 @@ export default function AboutPage() {
                   <br />더 나아가 독일이란 나라에 직접 가보고, 그 경험을
                   전달합니다.
                   <br />
-                  우리 모두가 독일과 가까워질 그 날까지!!
+                  우리 모두가 독일과 가까워질 그 날까지!
                 </p>
               </center>
             </div>
