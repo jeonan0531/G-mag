@@ -44,12 +44,11 @@ export default function HomePage() {
                 onClick={handleClick}
               >
                 <i className="fas fa-graduation-cap mr-2"></i>
-                🔔도전! 독문벨 준비하러가기📖
+                🔔도전! 독문벨 준비하러가기!📖
                 <i className="fas fa-graduation-cap mr-2"></i>
               </Link>
             </div>
           </div>
-
 
           {reporters.slice(0, 6).map((post, index) => (
             <PreviewPost
