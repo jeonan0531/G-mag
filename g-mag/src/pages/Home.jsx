@@ -36,6 +36,20 @@ export default function HomePage() {
               bgImg={`./${post.reporter}/${post.id}/`}
             />
           ))} */}
+          <div className="row mb-4">
+            <div className="col-12 d-flex justify-content-center">
+              <Link
+                className="btn text-uppercase btn-lg custom-button"
+                to="/quiz"
+                onClick={handleClick}
+              >
+                <i className="fas fa-graduation-cap mr-2"></i>
+                🔔도전! 독문벨 준비하러가기!📖
+                <i className="fas fa-graduation-cap mr-2"></i>
+              </Link>
+            </div>
+          </div>
+
           {reporters.slice(0, 6).map((post, index) => (
             <PreviewPost
               key={index}
