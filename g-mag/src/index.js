@@ -8,7 +8,6 @@ root.render(
   <React.StrictMode>
     <head>
       <meta charset="utf-8" />
-      <title>Clean Blog - Start Bootstrap Theme</title>
       <script
         src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
         crossorigin="anonymous"
